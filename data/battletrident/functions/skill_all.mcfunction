@@ -1,1 +1,0 @@
-function battletrident:skill_trident
