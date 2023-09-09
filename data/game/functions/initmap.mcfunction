@@ -1,5 +1,5 @@
-recipe take @a *
-advancement revoke @a everything
+#recipe take @a *
+#advancement revoke @a everything
 
 time set day
 weather clear
@@ -30,3 +30,4 @@ gamerule randomTickSpeed 0
 gamerule showDeathMessages true
 gamerule tntExplosionDropDecay true
 gamerule spectatorsGenerateChunks true
+gamerule doImmediateRespawn true

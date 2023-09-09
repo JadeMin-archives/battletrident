@@ -1,5 +1,5 @@
 item replace entity @a container.0 with minecraft:trident{Unbreakable:true} 1
-item replace entity @a weapon.offhand with minecraft:spyglass{Unbreakable:true} 1
+item replace entity @a container.1 with minecraft:spyglass{Unbreakable:true} 1
 
 execute as @e[type=minecraft:trident] at @s run particle minecraft:sonic_boom ~ ~ ~
 execute as @e[type=minecraft:trident, nbt={inGround:true}] at @s run summon minecraft:lightning_bolt ~ ~ ~

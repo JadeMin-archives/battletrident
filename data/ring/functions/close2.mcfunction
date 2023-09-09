@@ -1,4 +1,4 @@
-worldborder set 50 60
+worldborder set 100 30
 worldborder damage amount 0.2
 tellraw @a {"text": "자기장 축소 경고! 잠시 후 다음 자기장으로 축소됩니다.", "color": "yellow"}
 title @a title {"text": "자기장 경고", "color": "yellow"}

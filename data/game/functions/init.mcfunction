@@ -1,12 +1,12 @@
 spawnpoint @a ~ ~ ~
 setworldspawn ~ ~ ~
-#spreadplayers ~ ~ ~ 0 1 false @a
 worldborder center ~ ~
 
 
+
 function ring:init
-function ringtimer:init
-
+function skills:init
 function ondeath:init
-
+function game:initmap
+function game:initteam
 function game:reset

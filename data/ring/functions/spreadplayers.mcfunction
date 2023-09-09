@@ -1,0 +1,1 @@
+spreadplayers ~ ~ 100 150 false @a

@@ -1,1 +1,2 @@
-function skills:trident_ontick
+function skills:weapon_ontick
+function skills:shower_ontick
