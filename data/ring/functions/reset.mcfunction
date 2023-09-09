@@ -1,4 +1,4 @@
-worldborder set 300 5
+worldborder set 200 5
 worldborder damage amount 0
 
 schedule clear ring:close1

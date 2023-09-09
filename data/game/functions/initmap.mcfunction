@@ -29,5 +29,5 @@ gamerule mobGriefing false
 gamerule randomTickSpeed 0
 gamerule showDeathMessages true
 gamerule tntExplosionDropDecay true
-gamerule spectatorsGenerateChunks true
+gamerule spectatorsGenerateChunks false
 gamerule doImmediateRespawn true

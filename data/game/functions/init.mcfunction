@@ -8,5 +8,4 @@ function ring:init
 function skills:init
 function ondeath:init
 function game:initmap
-function game:initteam
 function game:reset

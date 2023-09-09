@@ -7,4 +7,4 @@ function skills:reset
 function ondeath:reset
 function game:initteam
 
-#scoreboard objectives setdisplay sidebar aliveTotal
+scoreboard objectives setdisplay sidebar cooldown_weapon

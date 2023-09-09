@@ -1,2 +1,1 @@
-team add skill_shower
-team add skill_fire
+scoreboard objectives add cooldown_weapon dummy
