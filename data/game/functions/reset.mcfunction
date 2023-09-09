@@ -7,4 +7,4 @@ function ringtimer:reset
 
 function ondeath:reset
 
-scoreboard objectives setdisplay sidebar aliveTotal
+#scoreboard objectives setdisplay sidebar aliveTotal
