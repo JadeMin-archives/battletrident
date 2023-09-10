@@ -6,5 +6,5 @@ function repeat:killtnt
 
 
 
-function skills:ontick
-function ondeath:ontick
+execute if entity @e[tag=config] run function skills:ontick
+execute if entity @e[tag=config] run function ondeath:ontick

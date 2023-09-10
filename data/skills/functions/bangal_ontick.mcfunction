@@ -1,1 +1,1 @@
-execute as @a[tag=skill_bangal, scores={health=..8}] at @s run effect give @s minecraft:speed 2 2 true
+execute as @a[tag=skill_bangal, scores={health=..6}] at @s run effect give @s minecraft:speed 1 1 true
