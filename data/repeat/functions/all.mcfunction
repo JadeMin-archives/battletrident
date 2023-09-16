@@ -1,7 +1,7 @@
 execute if entity @e[tag=config, scores={isPlaying=1}] run function repeat:clearitems
 execute if entity @e[tag=config, scores={isPlaying=1}] run function repeat:forceitems
 function repeat:nosurvival
-function repeat:saturation
+function repeat:resistance
 function repeat:killtnt
 
 
