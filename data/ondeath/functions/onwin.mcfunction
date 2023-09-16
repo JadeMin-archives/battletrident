@@ -1,3 +1,5 @@
+clear @a
+
 title @a[gamemode=!adventure] title {"text": "게임 종료!", "color": "blue"}
 title @a[gamemode=!adventure] subtitle {"text":"", "extra": [{"selector": "@a[gamemode=adventure]"}, {"text": "님이 최후의 1인입니다!"}]}
 

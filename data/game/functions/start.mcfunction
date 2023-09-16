@@ -3,6 +3,7 @@ function team:start
 
 clear @a
 effect clear @a
+effect give @a minecraft:instant_health 1 2 true
 function ring:spreadplayers
 title @a title {"text": "게임 시작!", "color": "blue"}
 title @a subtitle {"text": "10초 후 다음 자기장으로 축소됩니다."}
