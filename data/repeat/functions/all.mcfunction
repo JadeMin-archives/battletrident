@@ -1,10 +1,10 @@
-function repeat:clearitems
-execute as @a[gamemode=adventure] at @s run function repeat:forceitems
+execute if entity @e[tag=config, scores={isPlaying=1}] run function repeat:clearitems
+execute if entity @e[tag=config, scores={isPlaying=1}] run function repeat:forceitems
 function repeat:nosurvival
 function repeat:saturation
 function repeat:killtnt
 
 
 
-execute if entity @e[tag=config] run function skills:ontick
-execute if entity @e[tag=config] run function ondeath:ontick
+execute if entity @e[tag=config, scores={isPlaying=1}] run function skills:ontick
+execute if entity @e[tag=config, scores={isPlaying=1}] run function ondeath:ontick

@@ -11,6 +11,8 @@ execute as @a at @s run playsound minecraft:item.goat_horn.sound.0 ambient @s
 
 effect give @a minecraft:resistance infinite 4 true
 
+scoreboard players set @e[tag=config] isPlaying 0
+
 
 
 function ondeath:reset
