@@ -18,3 +18,4 @@ scoreboard players set @e[tag=config] isPlaying 0
 
 
 function ondeath:reset
+function game:start
