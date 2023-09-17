@@ -1,5 +1,5 @@
 kill @e[tag=config]
-summon minecraft:armor_stand ~ ~50 ~ {Tags: ["config"], NoGravity: true, Invulnerable: true, Marker: true}
+summon minecraft:armor_stand ~ ~50 ~ {Tags: ["config"], Marker: true}
 
 spawnpoint @a ~ ~ ~
 setworldspawn ~ ~ ~
