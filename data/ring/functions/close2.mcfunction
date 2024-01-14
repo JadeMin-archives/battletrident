@@ -1,4 +1,4 @@
-worldborder set 100 30
+worldborder set 100 40
 worldborder damage amount 0.1
 function ring:msg_close
 
